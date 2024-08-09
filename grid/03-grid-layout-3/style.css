@@ -31,6 +31,7 @@
 .logo {
   text-align: start;
 }
+
 .menu ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -47,7 +48,7 @@ ul {
 }
 
 .sidebar {
-  background-color: #C50208;
+  background-color: #c50208;
   grid-row: 2 / 4;
   display: grid;
   gap: 50px;
@@ -59,18 +60,20 @@ ul {
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  place-content: center;
 }
-
 
 .sidebar .side-content {
   background-color: white;
   color: black;
   font-size: 16px;
   font-weight: normal;
+  place-content: center;
 }
 
 .nav {
-  background-color: #C50208;
+  background-color: #c50208;
+  align-content: center;
 }
 
 .nav ul {
@@ -98,7 +101,7 @@ ul {
 }
 
 .article .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
   text-align: center;
   height: 200px;
