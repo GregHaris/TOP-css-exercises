@@ -5,10 +5,16 @@ html {
 }
 
 .container {
+  display: grid;
   text-align: center;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  gap: 15px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  gap: 10px;
+  place-content: center;
 }
 
 .container div {
@@ -44,6 +50,8 @@ html {
   color: white;
   text-align: left;
 }
+
+
 
 .footer {
   background-color: #393f4d;
